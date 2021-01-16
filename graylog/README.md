@@ -1,3 +1,7 @@
+## Collectors
+ * [filebeat](https://www.elastic.co/beats/filebeat) - Free lightweight shipper for logs.
+ * [nxlog](https://nxlog.co/products/nxlog-community-edition) - Modern open source log collector (Community Edition has limited functionality) 
+
 ## Grok patterns
 
 ### IIS logs default scheme
