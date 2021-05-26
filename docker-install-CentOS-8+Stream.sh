@@ -4,6 +4,7 @@ sudo dnf-config-manager --add-repo https://download.docker.com/linux/centos/dock
 sudo dnf makecache
 
 sudo dnf install -y docker-ce --allowerasing
+sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 sudo systemctl enable --now docker
